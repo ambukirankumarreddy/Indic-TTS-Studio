@@ -1,0 +1,41 @@
+# Python & Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Model weights (gigabytes of binary model checkpoints - download via scripts)
+models/hf/
+models/kokoro-*/
+models/syspin/
+models/vits-piper-*/
+models/*.onnx
+models/*.bin
+models/*.safetensors
+models/*.pt
+models/*.pth
+
+# Generated Audio & Exports
+generated_audio/*
+!generated_audio/.gitkeep
+
+# Installer build artifacts & logs
+installer/stage/
+installer/output/
+installer/*.log
+build/
+dist/
+
+# User-specific runtime data & settings
+studio_prefs.json
+*.log
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

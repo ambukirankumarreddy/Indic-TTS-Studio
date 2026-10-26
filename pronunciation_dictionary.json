@@ -1,0 +1,20 @@
+[
+  {
+    "word": "AI",
+    "say_as": "ए आई",
+    "language": "Hindi",
+    "case_sensitive": true
+  },
+  {
+    "word": "TTS",
+    "say_as": "टी टी एस",
+    "language": "Hindi",
+    "case_sensitive": true
+  },
+  {
+    "word": "Dr.",
+    "say_as": "डॉक्टर",
+    "language": "Hindi",
+    "case_sensitive": true
+  }
+]
